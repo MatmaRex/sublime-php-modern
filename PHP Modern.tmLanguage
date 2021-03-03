@@ -15,7 +15,7 @@
 	<key>foldingStopMarker</key>
 	<string>(\*/|^\s*\}|^HTML;)</string>
 	<key>name</key>
-	<string>PHP 5</string>
+	<string>PHP Modern</string>
 	<key>patterns</key>
 	<array>
 		<dict>
