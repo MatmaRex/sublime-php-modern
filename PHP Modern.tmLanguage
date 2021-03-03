@@ -455,7 +455,7 @@
 							<key>contentName</key>
 							<string>text.html</string>
 							<key>end</key>
-							<string>^(HTML)(;?)$\n?</string>
+							<string>^\s*(HTML)</string>
 							<key>endCaptures</key>
 							<dict>
 								<key>0</key>
@@ -512,7 +512,7 @@
 							<key>contentName</key>
 							<string>text.xml</string>
 							<key>end</key>
-							<string>^(XML)(;?)$\n?</string>
+							<string>^\s*(XML)</string>
 							<key>endCaptures</key>
 							<dict>
 								<key>0</key>
@@ -569,7 +569,7 @@
 							<key>contentName</key>
 							<string>source.sql</string>
 							<key>end</key>
-							<string>^(SQL)(;?)$\n?</string>
+							<string>^\s*(SQL)</string>
 							<key>endCaptures</key>
 							<dict>
 								<key>0</key>
@@ -626,7 +626,7 @@
 							<key>contentName</key>
 							<string>source.js</string>
 							<key>end</key>
-							<string>^(JAVASCRIPT)(;?)$\n?</string>
+							<string>^\s*(JAVASCRIPT)</string>
 							<key>endCaptures</key>
 							<dict>
 								<key>0</key>
@@ -1420,7 +1420,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>^(\2)(;?)$</string>
+					<string>^\s*(\2)</string>
 					<key>endCaptures</key>
 					<dict>
 						<key>1</key>
@@ -1461,7 +1461,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>^(\2)(;?)$</string>
+					<string>^\s*(\2)</string>
 					<key>endCaptures</key>
 					<dict>
 						<key>1</key>
