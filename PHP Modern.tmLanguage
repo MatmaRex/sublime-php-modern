@@ -913,7 +913,7 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.class.php</string>
+							<string>entity.name.class.forward-decl</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -946,7 +946,7 @@
 										<key>2</key>
 										<dict>
 											<key>name</key>
-											<string>entity.name.type.class.php</string>
+											<string>entity.name.class.forward-decl</string>
 										</dict>
 									</dict>
 									<key>match</key>
